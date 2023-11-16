@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width= "wrap_content"
+    android:layout_height= "wrap_content"
+    android:layout_gravity= "center"
+    android:columnCount= "4"
+    android:orientation= "horizontal"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <Button android:text="Nuevo" />
+    <Button android:text="Puntos:  0 " />
+    <Button android:text="Mejor:   0 " />
+
+
+    <Button android:text="0"
+        android:layout_column="0"
+        />
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="0" />
+    <Button android:text="0"
+        />
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="0" />
+    <Button android:text="0" />
+    <Button android:text="0"
+        android:layout_gravity="fill" />
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="0" />
+    <Button android:text="0" />
+    <Button android:text="0"
+        android:layout_gravity="fill" />
+    <Button android:text="0"
+        android:layout_gravity="fill"/>
+    <Button android:text="2"
+        android:id="@+id/button_2"/>
+
+
+</GridLayout>
+

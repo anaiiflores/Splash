@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         transitionsContainer = findViewById(R.id.transitions_container);
-        button = transitionsContainer.findViewById(R.id.centro);
+        button = transitionsContainer.findViewById(R.id.centro17);
 
         button.setOnTouchListener(new View.OnTouchListener() {
 

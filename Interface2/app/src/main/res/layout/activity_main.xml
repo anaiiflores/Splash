@@ -1,152 +1,419 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:columnCount="7"
-    android:rowCount="7"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
 
 
     <Button
-        android:layout_gravity="fill" android:visibility="invisible"
-        android:width="50dp"
-        android:height="50dp"/>
-    <Button
-        android:layout_gravity="fill" android:visibility="invisible"/>
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/back_azul"
+        android:text="Replay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:layout_width="33dp"
-        android:layout_gravity="fill"
-        android:width="50dp"
-        android:height="50dp"
-        android:backgroundTint="@color/back_azul"
-         />
+    <GridLayout
 
-    <Button
-        android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
+        android:id="@+id/transitions_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/back_azul"
+        android:columnCount="7"
+        android:rowCount="7"
 
-        />
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
 
-    <Button
-        android:layout_width="53dp"
-        android:layout_height="15dp"
-        android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
+        <!-- Poner capa para que no quede vacío-->
 
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button android:layout_gravity="fill" android:visibility="invisible"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
 
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
 
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <!-- centro-->
-    <Button  android:layout_gravity="fill"         android:backgroundTint="@color/black"
-        />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
 
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
 
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
 
-    <Button android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
 
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill"
-        android:backgroundTint="@color/back_azul"
-        />
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-    <Button  android:layout_gravity="fill" android:visibility="invisible"/>
-</GridLayout>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+        <!--centro:-->
+        <Button
+            android:id="@+id/centro"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/celeste_background"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/celeste_background"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+
+    </GridLayout>
+<!--imagen ver-->
+    <ImageView
+        android:id="@+id/colorImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/violetta_foreground"
+        android:visibility="invisible"
+        app:layout_editor_absoluteX="135dp"
+        app:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="627dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,53 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--aparecen nuevos botones cuando se mueve uno y luego
+ calcular coordenadas con traslate, si se puede, sino levantas el boton y luego copiarla abajo.
+ y se mueve la fila.
+quitar los numeros.
 
-<GridLayout
+
+ -->
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/gridLayout"
-    android:layout_width= "wrap_content"
-    android:layout_height= "wrap_content"
-    android:layout_gravity= "center"
-    android:columnCount= "4"
-    android:orientation= "horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".MainActivity"
+
     >
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/bnaraj_background"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos:  0 "
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/bnaraj_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mejor:   0 "
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+        android:backgroundTint="@color/bnaraj_background"/>
+
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@color/roj_background"
+        android:columnCount="4"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
 
-    <Button android:text="Nuevo" />
-    <Button android:text="Puntos:  0 " />
-    <Button android:text="Mejor:   0 " />
+        <Button
+            android:layout_column="0"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:id="@+id/button_2"
+
+            android:backgroundTint="@color/naranja_background" />
 
 
-    <Button android:text="0"
-        android:layout_column="0"
-        />
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="0" />
-    <Button android:text="0"
-        />
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="0" />
-    <Button android:text="0" />
-    <Button android:text="0"
-        android:layout_gravity="fill" />
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="0" />
-    <Button android:text="0" />
-    <Button android:text="0"
-        android:layout_gravity="fill" />
-    <Button android:text="0"
-        android:layout_gravity="fill"/>
-    <Button android:text="2"
-        android:id="@+id/button_2"/>
+    </GridLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
 
-</GridLayout>
 

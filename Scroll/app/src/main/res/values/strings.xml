@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Scroll</string>
+
+    <string name="heading">Beatles Anthology Vol1.</string>
+    <string name="subheading">Behind That Locked Door!</string>
+    <string name="article">
+
+        <p>Part allegory, part satire, part fantasy,</p>
+
+        <p>history, <i>and all fiction</i>, The Experiment</p>
+        <p>traces the evolution of rock music and unveils</p>
+        <p>the voodoo that gives this music a special power.</p>
+
+        <p><b>The iBook edition</b> includes popups with links to</p>
+        <p>songs in iTunes/Apple Music.</p>
+        <p>Kindle edition and Printed edition also available. www.google.com</p>
+
+        <p>Now and Thens eventful journey to fruition took place over five decades</p>
+        <p>and is the product of conversations and collaborations between the four Beatles that go on to this day. The long</p>
+        <p>mythologized John Lennon demo was first worked on in February 1995 by Paul, George, and Ringo as part of The Beatles</p>
+        <p>Anthology project but it remained unfinished, partly because of the impossible technological challenges involved in</p>
+        <p>working with the vocal John had recorded on tape in the 1970s.</p>
+
+        <p>For years it looked like the song could never be completed. But in 2022 there</p>
+        <p>was a stroke of serendipity. A software system developed by Peter Jackson and his team, used throughout the production</p>
+        <p>of the documentary series Get Back, finally opened the way for the uncoupling of Johns vocal from his piano part.</p>
+
+        <p>The shortfilm tells the story of the original recording being brought</p>
+        <p>back to life with contributions from all four Beatles marking the completion of the last recording that</p>
+        <p>John, Paul, George and Ringo will get to make together.</p>
+
+        <p>Now And Then – The Last Beatles Song documentary film, written and</p>
+        <p>directed by Oliver Murray, will debut on November 1. The film’s global</p>
+        <p>online premiere will be hosted on The Beatles YouTube channel at 7:30pm GMT</p>
+        <p>3:30pm EDT / 12:30pm PDT. This poignant short film tells the story behind</p>
+        <p>the last Beatles song, with exclusive footage and commentary from Paul, Ringo,</p>
+        <p>George, Sean Ono Lennon and Peter Jackson.</p>
+
+        <p>Peter Jackson: When Apple asked me to make the music video, I was very reluctant  I thought my next</p>
+        <p>few months would be a hell of a lot more fun if that tricky task was somebody else’s problem, and I could be</p>
+        <p>like any other Beatles fan, enjoying the nightbeforeChristmas anticipation as the release of a new</p>
+        <p>Beatles song and music video approached  in 1995, I loved the childlike excitement I felt as the release of Free As A Bird was inching closer.</p>
+
+        <p>I could have that experience once again  all I had to do was say no to The Beatles.</p>
+
+        <p>To be honest, just thinking about the responsibility of having to make a music video worthy of</p>
+        <p>the last song The Beatles will ever release produced a collection of anxieties almost too overwhelming to</p>
+        <p>deal with. My lifelong love of The Beatles collided into a wall of sheer terror at the thought of letting everyone down.</p>
+        <p>This created intense insecurity in me because Id never made a music video before, and was not able to imagine how I could</p>
+        <p>even begin to create one for a band that broke up over 50 years ago, had never actually performed the song, and had half of</p>
+        <p>its members no longer with us.</p>
+
+        <p>It was going to be far easier to do a runner. </p>
+    </string>
+</resources>

@@ -22,42 +22,69 @@
          />
 
 
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heading"
+        android:columnCount="2"
+        >
+
+        <TextView
+            android:id="@+id/subheading"
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/heading"
+
+            android:background="@color/cardview_shadow_start_color"
+            android:padding="5dp"
+
+            android:text="@string/subheading"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+
+
+
+
 <ScrollView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_below="@id/heading"
+    android:layout_below="@id/subheading"
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <TextView
-            android:id="@+id/subheading"
-            android:background="@color/cardview_shadow_start_color"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            android:padding="5dp"
-            android:textAppearance="@android:style/TextAppearance"
 
-            android:text="@string/subheading"
-            tools:layout_editor_absoluteX="80dp"
-            tools:layout_editor_absoluteY="40dp" />
-    <TextView
+        <!--edittext
+        cuando se pulse el boton, se puede editar el texto. y aparece el teclado para escribir.
+        y un apartado para escribir abajo.
+        -->
+        <EditText
         android:id="@+id/article"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:lineSpacingExtra="5sp"
         android:text="@string/article"
-        android:autoLink="web"
+        android:autoLink="web">
 
-        />
+        </EditText>
+
         <Button
+            android:id="@+id/but"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Add comment"></Button>
+
     </LinearLayout>
 </ScrollView>
+
+    </GridLayout>
+
 </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

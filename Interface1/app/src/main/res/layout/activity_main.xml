@@ -16,6 +16,14 @@ quitar los numeros.
 
     >
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2048"
+        android:textColor="@color/roj_background"
+        android:textSize="150px"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -50,8 +58,8 @@ quitar los numeros.
     <GridLayout
 
         android:id="@+id/gridLayout"
-        android:layout_width="360dp"
-        android:layout_height="191dp"
+        android:layout_width="355dp"
+        android:layout_height="325dp"
         android:layout_gravity="center"
         android:layout_marginTop="300dp"
         android:background="@color/roj_background"
@@ -65,60 +73,99 @@ quitar los numeros.
 
 
         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_column="0"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_gravity="fill"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_gravity="fill"
             android:backgroundTint="@color/naranja_background" />
 
-        <Button android:backgroundTint="@color/naranja_background" />
-
-        <Button android:backgroundTint="@color/naranja_background" />
-
         <Button
-            android:layout_gravity="fill"
-
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
-            android:layout_gravity="fill"
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button android:backgroundTint="@color/naranja_background" />
-
-        <Button android:backgroundTint="@color/naranja_background" />
-
-        <Button
-            android:layout_gravity="fill"
-
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
-            android:layout_gravity="fill"
-
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button android:backgroundTint="@color/naranja_background" />
-
-        <Button android:backgroundTint="@color/naranja_background" />
-
-        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_gravity="fill"
 
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_gravity="fill"
 
             android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background"
+
+
+            />
 
         <Button
             android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
 
             android:backgroundTint="@color/naranja_background" />
 

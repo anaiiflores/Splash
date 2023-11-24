@@ -73,57 +73,40 @@ quitar los numeros.
 
 
         <Button
+            android:id="@+id/but1"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_column="0"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but2"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_gravity="fill"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but3"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_gravity="fill"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but4"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but5"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_gravity="fill"
-
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_gravity="fill"
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:backgroundTint="@color/naranja_background" />
-
-        <Button
+            android:id="@+id/but6"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_gravity="fill"
@@ -131,6 +114,26 @@ quitar los numeros.
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but7"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:id="@+id/but8"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:id="@+id/but9"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:id="@+id/but10"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_gravity="fill"
@@ -138,6 +141,15 @@ quitar los numeros.
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but11"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="fill"
+
+            android:backgroundTint="@color/naranja_background" />
+
+        <Button
+            android:id="@+id/but12"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background" />
@@ -148,13 +160,14 @@ quitar los numeros.
             android:backgroundTint="@color/naranja_background" />
 
         <Button
+            android:id="@+id/but13"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
 
             android:backgroundTint="@color/naranja_background" />
 
         <Button
-
+            android:id="@+id/but14"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:backgroundTint="@color/naranja_background"
@@ -163,7 +176,7 @@ quitar los numeros.
             />
 
         <Button
-            android:id="@+id/button_2"
+            android:id="@+id/but15"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
 
